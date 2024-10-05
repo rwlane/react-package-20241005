@@ -3,12 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+const ReactPackage = () => {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
+        <header style={{backgroundColor: "black"}}>
+          <span style={{color: "white"}}>This is My React Package</span>
+        </header>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -32,4 +35,6 @@ function App() {
   )
 }
 
-export default App
+export {
+  ReactPackage,
+}
