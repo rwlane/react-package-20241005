@@ -1,6 +1,6 @@
 {
   "name": "@rwlane999/react-package-20241005",
-  "version": "0.0.2",
+  "version": "0.0.3-rc.2",
   "private": false,
   "description": "my react package",
   "main": "distmy-react-package",
@@ -31,5 +31,9 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.7.0",
     "vite": "^5.4.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwlane/react-package-20241005.git"
   }
 }
